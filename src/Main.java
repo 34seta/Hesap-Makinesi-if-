@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Diger sayiyi giriniz : ");
         number2 = input.nextDouble();
 
-        System.out.println("Yapacağınız islem seciniz!\n 1.Toplama \n 2.Cıkarman \n 3.Carpman \n 4.Bolme");
+        System.out.println("Yapacağınız islem seciniz!\n 1.Toplama \n 2.Cikarma \n 3.Carpma \n 4.Bolme");
         int select = input.nextInt();
         if (select == 1) {
             System.out.println("Toplam = " + (number1 + number2));
@@ -29,6 +29,7 @@ public class Main {
             }
         } else {
             System.out.println("Gecerli Sayi Giriniz ");
+           
         }
 
 
